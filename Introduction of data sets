@@ -1,0 +1,23 @@
+Introduction of  data sets
+1. abundance.txt: relative cells abundance per subcommunity per sample
+#Explination for each colunm
+#"Sample_name": name of samples;
+#"Group": reactors where samples picked from;
+#"Time_d": sampling time (day)
+#"G1-68": subcommunities
+
+2. abio.txt:abiotic parameters
+#Explination for each colunm
+#"Group": reactors where samples picked from;
+#"Time": sampling time (day)
+# Abiotic parameters, such as "Tmp": temperature; "pH":pH; "EC": electric conductivity; "NH4": ammonium concertration;...
+
+3. All.txt:relative cells abundance per subcommunity and corresponding abiotic parameters
+All=read.table("All.txt",header=T,sep="\t")
+
+4. TestRefSpace.txt:the test result of whether reference space was built per reactor
+EcoSat=read.table("TestRefSpace.txt",header=T)
+
+5. and 6. According to reactor groups, D(q=0) of dominant subcommunities were divided into two files:"diversity.txt" for controls; "diversityDs.txt" for disturbed reactors.
+
+7. te.txt: Temperature data for disturbed reactors (D1,D2 and D3)

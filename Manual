@@ -1,0 +1,15 @@
+For the R-script
+1. Introduction
+2. Codes
+  2.1 Diversity calculation
+  2.2 Testing for reference space
+  2.3 Codes for the main text
+    2.3.1 Figure 1
+    2.3.2 Figure 2
+    2.3.3 Figure 3
+    2.3.4 Figure 4
+  2.4 Codes for the supporting information
+    2.4.1 Data of abiotic parameters
+    2.4.2 Analysis of dis-/similarity (ANOSIM)
+    2.4.3 Correlation analysis
+    2.4.4 fates of subcommunities

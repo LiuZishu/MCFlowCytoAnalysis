@@ -115,8 +115,8 @@ View(AlphaDiversity)
 #According to reactor groups, D(q=0) of dominant subcommunities were divided into two files:"diversity.txt" for controls; "diversityDs.txt" for disturbed reactors.
 
 #============================================================================
-#2.2 Testing of reference space
-#2.2.1 Last 10 samples per reactor used to test the reference space
+#2.2 Testing for reference space
+#Last 10 samples per reactor used to test the reference space
 #e.g. data of C1
 
 data=abundance[2:66,]

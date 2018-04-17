@@ -1,4 +1,3 @@
-#setwd("C:/Users/liuz/Desktop/script_collection")
 #1. Introduction======================================================================
 #The R-script used for the article: 
 #"Neutral mechanisms and niche differentiation in steady-state insular microbial communities reveald by single cell analysis"
